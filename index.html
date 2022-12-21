@@ -8,9 +8,27 @@
     <link rel="stylesheet" type="text/css" href="./styles.css">
 </head>
 <body>
-    <div id="container">
+    <h1>My Library</h1>
+    <div id="darkBackground"></div>
+    <button id="addBookButton">+ Add Book</button>
+    <form action="" id="form" >
+        <legend><b>Add New Book:</b></legend>
+        <input id="titleInput" type="text" placeholder="Title" required/> <br>
+        <input id="authorInput" type="text" placeholder="Author" required/><br>
+        <input id="pagesInput"type="number" placeholder="Pages"required/><br>
+        
+        <div id="checkBoxDiv">
+            <label>Have you finished this book?</label>
+            <input id="readInput" type="checkbox" />
+        </div>
 
+        <button type="submit" id="submitNewBookInfo" >Submit</button>
+        <button id="exitNewBookForm" >Exit</button>
+    </form>
+
+    <div id="container">
     </div>
+
     <script src="./index.js"></script>
 </body>
 </html>
