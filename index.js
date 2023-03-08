@@ -2,7 +2,14 @@
 let myLibrary = [
     {title: "12 Rules For Life: An Antidote For Chaos", author: "Jordan B. Peterson", pages: 410, read: true},
     {title: "Can't Hurt Me", author: 'David Goggins', pages: 363, read: true},
-    {title: "Non-Negotiable", author: 'Wes Watson', pages: 153, read:true} ];
+    {title: "Non-Negotiable", author: 'Wes Watson', pages: 153, read:true},
+    {title: "Beyond Order", author: "Jordan B. Peterson", pages: 402, read: false},
+    {title: "Never Finished", author: 'David Goggins', pages: 313, read: false},
+    {title: "Atomic Habits", author: 'James Clear', pages: 300, read:true},
+    {title: "The Obstacle Is The Way", author: "Ryan Holiday", pages: 200, read: true},
+    {title: "Limitless", author: 'Jim Kwik', pages: 315, read: true},
+    {title: "The Rudest Book Ever", author: 'Shwetabh Gangwar', pages: 211, read:true},
+    {title: "The Almanack of Naval Ravikant", author: 'Eric Jorgenson', pages: 245, read:false} ];
  
 const divContainer = document.getElementById("container");
 //constructor for Book objects.
